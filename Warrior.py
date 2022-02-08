@@ -56,4 +56,11 @@ class Warrior:
 
 
 if __name__ == "__main__":
-    print(Warrior.degat)
+    w = Warrior()
+    print(w.degat)
+
+    w2 = Warrior()
+    print(w2.degat)
+
+    w2.degat = 3
+    print(w2.degat)
