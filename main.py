@@ -36,4 +36,5 @@ if __name__ == '__main__':
         print(W.getprix())
         print(W.getfuite())
         print(W.getfuite())
+        W.setdegat(3)
 
