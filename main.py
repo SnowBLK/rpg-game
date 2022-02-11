@@ -3,9 +3,29 @@ import random
 
 class Wizard:
 
-        def __init__(self,degat, chance,fuite,prix,unit_type):
-        degat=random.randint(2,4)
-        chance=20
-        fuite=10
-        prix=15
-        unit_type="wizard"
+        def __init__(self):
+                self.__degat=random.randint(2,4)
+                self.__chance=20
+                self.__fuite=10
+                self.__prix=15
+                self.__unit_type="wizard"
+
+        def getdegat(self):
+                return self.__degat
+        def getchance(self):
+                return self.__chance
+        def getfuite(self):
+                return self.__fuite
+        def getprix(self):
+                return self.__prix
+        def getunit(self):
+                return self.__unit_type
+
+if __name__ == '__main__':
+        W = Wizard()
+        print(W.getchance())
+        print(W.getdegat())
+        print(W.getprix())
+        print(W.getfuite())
+        print(W.getfuite())
+
