@@ -20,6 +20,14 @@ class Wizard:
                 return self.__prix
         def getunit(self):
                 return self.__unit_type
+        def setdegat(self, x):
+                self.__degat = x
+        def setchance(self, x):
+                self.__chance = x
+        def setfuite(self, x):
+                self.__fuite = x
+        def setprix(self, x):
+                self.__prix = x
 
 if __name__ == '__main__':
         W = Wizard()
